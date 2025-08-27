@@ -7,7 +7,7 @@
 int main() {
     srand(time(NULL));
 
-    long n = 100000000;
+    long n = rand() % MAXN;
     
     float* v[2] = {NULL, NULL};
     for(int i = 0; i < 2; i++) {
